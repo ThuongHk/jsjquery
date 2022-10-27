@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Load Thư viện jQuery vào trước khi load jQuery Validate-->
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+    <script src="  "></script>
+    <link rel="stylesheet" href="vali3.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1 class="text-info">Class Marksheet</h1>
+        <br>
+
+        <!-- <label for="stt">Số thứ tự:</label>
+                <input type="text" id="stt" name="stt" placeholder="Nhập số thứ tự"> -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <label for="hoten">Họ và tên:</label>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <input type="text" name="hoten" id="hoten" placeholder="Nhập họ tên" required>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <label for="toan">Điểm môn toán:</label>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <input type="text" name="toan" id="toan" placeholder="Nhập điểm môn toán">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <label for="ly">Điểm môn lý:</label>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <input type="text" name="ly" id="ly" placeholder="Nhập điểm môn lý">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <label for="hoa">Điểm môn hóa:</label>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <input type="text" name="hoa" id="hoa" placeholder="Nhập điểm môn hóa"><br>
+                </div>
+            </div>
+            <br><br>
+
+            <!-- <button type="button"  onclick="nhap()"> Nhập vào</button> -->
+            <div class="col-md-12 text-center">
+                <button class="btn btn-success btn-sm" id="button">Thêm vào</button>
+            </div>
+        </div>
+        <br><br><br>
+
+        <table id="table" style="width: 90%;">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Họ tên</th>
+                    <th>Toán</th>
+                    <th>Lý</th>
+                    <th>Hóa</th>
+                    <th>Trung bình</th>
+
+                </tr>
+            </thead>
+
+        </table>
+        <br><br><br>
+        <div class="row"  style="width:35%; margin: auto;">
+            <div class="col-sm-12 col-md-6">
+                <button class="btn btn-success btn-sm mr-1" id="d1">Điểm Trung Bình</button>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <button class="btn btn-danger btn-sm"id="d2">Học Sinh Giỏi</button>
+            </div>
+        </div>
+    </div>
+
+    <script src='j3.js'></script>
+
+</body>
+
+</html>
